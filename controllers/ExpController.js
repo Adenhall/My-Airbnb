@@ -34,3 +34,6 @@ exports.getExp = async function (req, res) {
     res.status(400).json({ status: "NOT OK", error: err.message });
   }
 };
+exports.getSingleExp = async function (req, res) {
+    
+}
